@@ -36,7 +36,7 @@ int main() {
 
 	CsmaHelper csma;
 	csma.SetChannelAttribute("DataRate", StringValue("100Mbps"));
-	csma.SetChannelAttribute("Delay", TimeValue(NanoSeconds(6500)));
+	csma.SetChannelAttribute("Delay", TimeValue(NanoSeconds(6560)));
 
 	NodeContainer csmaDevices;
 	csmaDevices.Add(bridgeNode.Get(0));
